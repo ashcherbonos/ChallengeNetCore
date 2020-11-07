@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothScanner", "BluetoothScanner\BluetoothScanner.csproj", "{1BA04003-6C03-4F0E-BC7E-48C69F4BB3F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BA04003-6C03-4F0E-BC7E-48C69F4BB3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA04003-6C03-4F0E-BC7E-48C69F4BB3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA04003-6C03-4F0E-BC7E-48C69F4BB3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA04003-6C03-4F0E-BC7E-48C69F4BB3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

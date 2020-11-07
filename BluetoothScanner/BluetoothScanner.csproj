@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MaterialDesignThemes" Version="3.1.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="wclBluetoothFramework, Version=7.9.0.0, Culture=neutral, PublicKeyToken=31ded9088a20b7e8">
+        <HintPath>..\lib\btframework\wclBluetoothFramework.dll</HintPath>
+      </Reference>
+      <Reference Include="wclCommon, Version=7.5.25.0, Culture=neutral, PublicKeyToken=82c86b86abd59210">
+        <HintPath>..\lib\btframework\wclCommon.dll</HintPath>
+      </Reference>
+      <Reference Include="wclCommunication, Version=7.5.4.0, Culture=neutral, PublicKeyToken=959749996648afb6">
+        <HintPath>..\lib\btframework\wclCommunication.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
